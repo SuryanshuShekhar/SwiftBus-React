@@ -4,18 +4,16 @@ Swift Bus is a **fully functional frontend bus booking application** built with
 [React](https://react.dev/), [Redux](https://redux.js.org/), [Bootstrap](https://getbootstrap.com/), [React Router](https://reactrouter.com/), and [Vite](https://vitejs.dev/).  
 It simulates real-world bus booking platforms like **Redbus, Zingbus with a **dummy payment gateway** and interactive UI.
 
----
-
 ## 🚀 Features
 
 - 🔍 **Search & Filter Trips** (From, To, Date, Passengers)  
 - 🚌 **Bus Operators & Trip Listings** (dummy API + mock third-party data)  
 - 💺 **Seat Selection** with real-time pricing  
 - 👤 **Passenger Details Form**  
-- 🎟️ **Coupons & Discounts** (e.g. `SWIFT10`, `FLAT50`)  
+- 🎟️ **Coupons & Discounts** 
 - 💳 **Dummy Payment Gateway** (Success/Failure simulation)  
 - 📜 **Booking History (Persisted with LocalStorage)**  
-- 🎨 **Bootstrap 5 + Bootstrap Icons + React Icons** for modern UI  
+- 🎨 **Bootstrap 5 + Bootstrap Icons** for modern UI  
 - ⚡ Powered by **React Redux (without Redux Toolkit)** and custom thunk middleware  
 
 ---
@@ -23,7 +21,7 @@ It simulates real-world bus booking platforms like **Redbus, Zingbus with a **du
 ## 🛠️ Installation & Setup
 1.Clone the Repository
 ```bash
-git clone https://github.com/your-username/swift-bus.git
+git clone https://github.com/SuryanshuShekhar/swift-bus.git
 cd swift-bus
 
 2. Install Dependencies
@@ -42,7 +40,6 @@ Frontend: React 19, Vite, Bootstrap 5, React Router, React Icons
 State Management: Redux (without Toolkit), Redux Thunk
 API: Axios + Dummy Data
 Styling: Bootstrap
-Deployment: Vercel
 
 ✨Future Improvements
 User Authentication
